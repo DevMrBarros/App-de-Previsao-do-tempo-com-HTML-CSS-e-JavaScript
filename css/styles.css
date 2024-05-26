@@ -13,7 +13,9 @@ body {
   align-items: center; /* Center content vertically */
   height: 100vh; /* Set height to full viewport height */
   width: 100vw; /* Set width to full viewport width */
-  background-image: url("https://source.unsplash.com/1600x900/?landscape"); /* Set background image */
+  background-image: url("../img/sunrise-bali-jungle.jpg"); /* Set background image */
+  background-size: cover;
+  background-position: center;
 }
 
 /* Main container styles */
@@ -21,7 +23,7 @@ body {
   background-color: #000000; /* Set background color to black */
   width: 95%; /* Set width to 95% of parent */
   max-width: 420px; /* Set maximum width to 420px */
-  opacity: 0.8; /* Set opacity to 0.8 */
+  opacity: 0.9; /* Set opacity to 0.9 */
   padding: 20px; /* Add padding to container */
   border-radius: 25px; /* Add border radius to container */
 }
@@ -44,7 +46,7 @@ button {
   outline: none; /* Remove outline */
   padding: 10px; /* Add padding to button */
   border-radius: 50px; /* Add border radius to button */
-  background-color: #7c7c7c2b; /* Set background color to dark gray */
+  background-color: #7c7c7c6b; /* Set background color to dark gray */
   float: right; /* Float button to right */
   cursor: pointer; /* Set cursor to pointer */
 }
