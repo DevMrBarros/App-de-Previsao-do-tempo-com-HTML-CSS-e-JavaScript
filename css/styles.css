@@ -1,0 +1,98 @@
+/* Reset CSS */
+* {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box; /* Use border-box model for box sizing */
+  font-family: "Open Sans", sans-serif; /* Set default font family */
+}
+
+/* Body styles */
+body {
+  display: flex; /* Use flexbox to center content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh; /* Set height to full viewport height */
+  width: 100vw; /* Set width to full viewport width */
+  background-image: url("https://source.unsplash.com/1600x900/?landscape"); /* Set background image */
+}
+
+/* Main container styles */
+.caixa-maior {
+  background-color: #000000; /* Set background color to black */
+  width: 95%; /* Set width to 95% of parent */
+  max-width: 420px; /* Set maximum width to 420px */
+  opacity: 0.8; /* Set opacity to 0.8 */
+  padding: 20px; /* Add padding to container */
+  border-radius: 25px; /* Add border radius to container */
+}
+
+/* Input styles */
+input {
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 10px; /* Add padding to input */
+  border-radius: 24px; /* Add border radius to input */
+  font-size: 20px; /* Set font size to 20px */
+  background-color: #7c7c7c2b; /* Set background color to dark gray */
+  color: #ffffff; /* Set text color to white */
+  width: calc(100% - 100px); /* Set width to 100% minus 100px */
+}
+
+/* Button styles */
+button {
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+  padding: 10px; /* Add padding to button */
+  border-radius: 50px; /* Add border radius to button */
+  background-color: #7c7c7c2b; /* Set background color to dark gray */
+  float: right; /* Float button to right */
+  cursor: pointer; /* Set cursor to pointer */
+}
+
+/* Button hover styles */
+button:hover {
+  background-color: #7c7c7c6b; /* Set background color to lighter gray on hover */
+}
+
+/* Media container styles */
+.caixa-media {
+  margin-top: 30px; /* Add margin top to media container */
+}
+
+/* Smaller container styles */
+.caixa-menor {
+  display: flex; /* Use flexbox to align items */
+  margin-top: 30px; /* Add margin top to smaller container */
+  align-items: center; /* Center items vertically */
+}
+
+/* Lupa (magnifying glass) styles */
+.lupa {
+  height: 20px; /* Set height to 20px */
+}
+
+/* Heading styles */
+h2 {
+  color: white; /* Set text color to white */
+  font-size: 28px; /* Set font size to 28px */
+}
+
+/* Temperature styles */
+.temp {
+  color: #ffffff; /* Set text color to white */
+  margin-top: 30px; /* Add margin top to temperature */
+  font-size: 30px; /* Set font size to 30px */
+}
+
+/* Description styles */
+.descricao {
+  color: #ffffff; /* Set text color to white */
+  margin-left: 20px; /* Add margin left to description */
+  text-transform: capitalize; /* Capitalize first letter of description */
+}
+
+/* Humidity styles */
+.umidade {
+  color: #ffffff; /* Set text color to white */
+  margin-top: 30px; /* Add margin top to humidity */
+}
